@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bakery" />
+    <title>Our Offer Bakery 🥖</title>
+    <!-- Tailwind -->
+    <link href="./css/output.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-alegreyaSans">
+    <header
+      class="fixed left-0 top-0 z-10 h-14 w-full !bg-white px-10 pt-2 font-alegreya text-black shadow-xl transition-all duration-300 lg:bg-transparent lg:px-[42px] lg:pt-0"
+    >
+      <div class="flex items-center justify-between">
+        <div class="logo">
+          <img
+            src="images/bakery-color.png"
+            alt="bakery logo"
+            class="flex h-10"
+          />
+        </div>
+        <nav
+          class="h-0 w-0 overflow-hidden opacity-0 transition-all lg:flex lg:h-fit lg:w-fit lg:overflow-auto lg:opacity-100"
+        >
+          <ul
+            class="mx-[42px] flex flex-col items-start gap-x-4 lg:flex-row lg:items-center"
+          >
+            <li
+              class="relative w-full lg:w-fit lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:h-[2px] lg:before:w-0 lg:before:transition-all"
+            >
+              <a
+                class="block w-full py-4 text-lg transition-colors lg:w-fit lg:px-3"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li
+              class="relative w-full lg:w-fit lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:h-[2px] lg:before:w-0 lg:before:transition-all"
+            >
+              <a
+                class="block w-full border-t py-4 text-lg transition-colors lg:w-fit lg:border-none lg:px-3"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li
+              class="relative w-full lg:w-fit lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:h-[2px] lg:before:w-0 lg:before:transition-all"
+            >
+              <a
+                class="block w-full border-t py-4 text-lg transition-colors lg:w-fit lg:border-none lg:px-3"
+                href="ouroffer.html"
+                >Our Offer</a
+              >
+            </li>
+            <li
+              class="relative w-full lg:w-fit lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:h-[2px] lg:before:w-full lg:before:transition-all"
+            >
+              <a
+                class="block w-full border-t py-4 text-lg transition-colors lg:w-fit lg:border-none lg:px-3"
+                href="gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li
+              class="relative w-full lg:w-fit lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:h-[2px] lg:before:w-0 lg:before:transition-all"
+            >
+              <a
+                class="block w-full border-t py-4 text-lg transition-colors lg:w-fit lg:border-none lg:px-3"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="icon flex lg:hidden">
+          <i class="fa-solid fa-bars cursor-pointer text-xl"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="relative">
+        <section class="relative h-60 bg-[#f8f8f8]">
+          <div
+            class="landing-content absolute bottom-3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+          >
+            <h1 class="mb-3 font-alegreya text-[32px]">Gallery</h1>
+            <p class="text-lg text-[#686868]">
+              Awesome gallery showcasing our artisan bakings.
+            </p>
+          </div>
+        </section>
+        <section class="gallery relative px-10 py-16 lg:px-20">
+          <div
+            class="gallery-content mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+          >
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/roman-kraft-56589-800x760.jpg"
+                alt="roman-kraft"
+                class="h-full w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass pointer-events-none"></i>
+              </div>
+            </div>
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/stas-ovsky.jpg"
+                alt="roman-kraft"
+                class="h-full w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/clem-onojeghuo.jpg"
+                alt="roman-kraft"
+                class="h-full w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/ben-garratt.jpg"
+                alt="roman-kraft"
+                class="h-full w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/full-2.jpg"
+                alt="roman-kraft"
+                class="h-full w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div
+              class="photo relative cursor-pointer overflow-hidden rounded-md"
+            >
+              <img
+                src="images/alexandru-stavrica.jpg"
+                alt="roman-kraft"
+                class="w-full object-cover transition-all duration-500"
+              />
+              <div
+                class="absolute left-0 top-0 flex h-full w-full items-center justify-center bg-black/25 text-white opacity-0 transition-all duration-500 hover:opacity-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div
+            class="grid grid-cols-1 gap-10 bg-[#403d38] px-10 py-16 pt-16 text-[#969696] md:grid-cols-2 md:px-10 lg:grid-cols-4 lg:px-20"
+          >
+            <div>
+              <h4 class="mb-4 text-lg text-white">About us</h4>
+              <p class="leading-7">
+                I am text block. Click edit button to change this text. Lorem
+                ipsum dolor sit amet, consectetur. I am text block. Click edit
+                button to change this text. Lorem ipsum dolor sit amet,
+                consectetur.
+              </p>
+              <p class="mt-4 leading-7">
+                We are the champions! We are the most amazing theme of all time,
+                yeah.
+              </p>
+            </div>
+            <div>
+              <h4 class="mb-4 text-lg text-white">Why we are special?</h4>
+              <ul class="space-y-2">
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Our magical recipe.
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  We care about environment.
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  We are trusted by hundreds of clients.
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Social media loves us!
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  This list is super easy to create.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="mb-4 text-lg text-white">Opening Hours</h4>
+              <ul class="space-y-2">
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Monday 10AM - 9PM
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Tuesday 10AM - 9PM
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Wednesday 10AM - 9PM
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Thursday 10AM - 10PM
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Friday 10AM - 10PM
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-1 before:font-icon before:text-sm before:font-extrabold before:content-['\f105']"
+                >
+                  Weekends 10AM - 11PM
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="mb-4 text-lg text-white">Contact Details</h4>
+              <ul class="space-y-2">
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-3 before:font-icon before:text-sm before:font-extrabold before:content-['\f3c5']"
+                >
+                  Manchester Road 123-78B, Silictown 7854MD, Great Country
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-3 before:font-icon before:text-sm before:font-extrabold before:content-['\f095']"
+                >
+                  <a
+                    href="tel:+46 123 456 789"
+                    class="transition-colors hover:text-[#E0E0E0]"
+                    >+46 123 456 789</a
+                  >
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-3 before:font-icon before:text-sm before:font-extrabold before:content-['\f0e0']"
+                >
+                  <a
+                    href="mailto:http://hello@sitename.com"
+                    class="transition-colors hover:text-[#E0E0E0]"
+                    >hello@sitename.com</a
+                  >
+                </li>
+                <li
+                  class="border-b border-b-[#ffffff0d] pb-3 before:mr-3 before:font-icon before:text-sm before:font-extrabold before:content-['\f57d']"
+                >
+                  <a
+                    href="http://www.sitename.com"
+                    class="transition-colors hover:text-[#E0E0E0]"
+                    target="_blank"
+                    >http://www.sitename.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="flex flex-col items-center justify-center gap-4 bg-[#353330] px-10 py-16 lg:px-20"
+          >
+            <img src="images/bakery-light-1.png" alt="bakery logo" />
+            <p class="text-[#969696]">Copyright 2017. All rights reserved.</p>
+            <ul class="flex items-center gap-2 text-[#8c8a86]">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100046155277195"
+                  target="_blank"
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-[#484540] transition-all duration-300 hover:bg-[#3b5998] hover:text-white"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-[#484540] transition-all duration-300 hover:bg-[#dd4b39] hover:text-white"
+                >
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-[#484540] transition-all duration-300 hover:bg-[#007bb5] hover:text-white"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-[#484540] transition-all duration-300 hover:bg-[#00aced] hover:text-white"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </article>
+      <div
+        class="scroll-top fixed bottom-4 right-4 flex items-center justify-center rounded-full bg-[#00000099] text-white opacity-0 transition-all duration-300 hover:opacity-100"
+      >
+        <i
+          class="fa-solid fa-angles-up h-9 w-9 cursor-pointer text-center !leading-9"
+        ></i>
+      </div>
+      <div
+        class="setting fixed right-0 top-0 z-50 h-screen w-72 translate-x-72 bg-white p-5 shadow-lg transition-all duration-300"
+      >
+        <div
+          class="icon absolute -left-7 top-1/4 rounded-md bg-white text-[#666] shadow-lg"
+        >
+          <div>
+            <i class="fa-solid fa-gear cursor-pointer px-2 py-2"></i>
+          </div>
+        </div>
+        <div class="colors mt-8 text-center">
+          <h4 class="text-lg font-medium">Choose Accent Color:</h4>
+          <ul
+            class="colors-list mt-6 flex flex-wrap items-center justify-center gap-3 rounded-md bg-[#eee] px-2 py-4"
+          >
+            <li
+              data-color="#218fe6"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#218fe6] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#f44336"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#f44336] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#e91e63"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#e91e63] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#9c27b0"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#9c27b0] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#673ab7"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#673ab7] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#3f51b5"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#3f51b5] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#2196f3"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#2196f3] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#03a9f4"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#03a9f4] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#00bcd4"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#00bcd4] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#009688"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#009688] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#4caf50"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#4caf50] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#8bc34a"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#8bc34a] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#cddc39"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#cddc39] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#ffc107"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#ffc107] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#ff9800"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#ff9800] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#ff5722"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#ff5722] opacity-50 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#795548"
+              class="h-5 w-5 cursor-pointer rounded-full border-2 border-white bg-[#795548] opacity-100 transition-all hover:opacity-100"
+            ></li>
+            <li
+              data-color="#607d8b"
+              class="h-5 w-5 cursor-pointer rounded-full border-white bg-[#607d8b] opacity-50 transition-all hover:opacity-100"
+            ></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="JS/global.js"></script>
+    <script src="JS/Gallery.js"></script>
+  </body>
+</html>
